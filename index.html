@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>Pengembangan Website Toko Rental Buku</title>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<div id="content">
+		<div id="header"></div>
+			<div id="menu">
+			</div>
+		</div>
+	<div id="main-content">
+		<div id="news">
+			<div class="news">
+				<br><br>
+				<h1>Koleksi Buku "Book Haven"</h1>
+				<div class="foto-item">
+					<img src="atomic_habits.jpg" alt="Atomic Habits" width="30%"> 
+					<p class="caption">Atomic Habits oleh James Clear : Panduan praktis untuk membangun kebiasaan baik dan menghilangkan kebiasaan buruk.</p>
+				  </div>
+		  
+				  <div class="foto-item">
+					<img src="sapiens.jpg" alt="Sapiens" width="30%">
+					<p class="caption">Sapiens oleh Yuval Noah Harari : Riwayat Singkat Umat Manusia oleh Yuval Noah Harari: Menjelajahi sejarah manusia dari masa prasejarah hingga era modern.</p>
+				  </div>
+		  
+				  <div class="foto-item">
+					<img src="the_midnight_library.jpg" alt="The Midnight Library" width="30%">
+					<p class="caption">The Midnight Library oleh Matt Haig : Novel fiksi yang mengharukan tentang pilihan hidup dan menemukan arti kehidupan.</p>
+				  </div>
+		  
+				  <div class="foto-item">
+					<img src="a_little_life.jpg" alt="A Little Life" width="30%">
+					<p class="caption">A Little Life oleh Hanya Yanagihara : Novel yang mendalam tentang persahabatan, trauma, dan perjuangan hidup.</p>
+				  </div>
+		  
+				  <div class="foto-item">
+					<img src="laut_bercerita.jpg" alt="Laut Bercerita" width="30%">
+					<p class="caption">Laut Bercerita oleh Leila S. Chudori : Novel tentang perjuangan aktivis mahasiswa pada masa Orde Baru.</p>
+				  </div>
+
+			</div>
+		</div>
+	</div>
+</style>
+
+</head>
+	<body>
+		<div class="container">
+			<h1>Data Peminjam Buku "Book Haven"</h1>
+		  </div>
+		
+		  <form name="form1" method="post" action="proses.php" class="container">
+			<table>
+			  <tr>
+				<td>Nama Lengkap</td>
+				<td><input type="text" name="nama" id="nama"></td>
+			  </tr>
+			  <tr>
+				<td>Alamat</td>
+				<td><input type="text" name="alamat" id="alamat"></td>
+			  </tr>
+			  <tr>
+				<td>E-Mail</td>
+				<td><input type="text" name="email" id="email"></td>
+			  </tr>
+			  <tr>
+				<td>Nama Buku</td>
+				<td>
+				  <select name="buku" id="buku">
+					<option>Atomic Habits</option>
+					<option>Sapiens</option>
+					<option>The Midnight Library</option>
+					<option>A Little Life</option>
+					<option>Laut Bercerita</option>
+				  </select>
+				</td>
+			  </tr>
+			  <tr>
+				<td>Nomor HP</td>
+				<td><input type="text" name="nomor" id="nomor"></td> 
+			  </tr>
+			  <tr>
+				<td></td>
+				<td>
+				  <input type="submit" name="Submit" value="Kirim">
+				  <input type="reset" name="Submit2" value="Batal">
+				</td>
+			  </tr>
+			</table>
+		  </form>
+		
+		  <div class="container">
+			<a href="lihat.php">::Lihat Data Peminjam Buku "Book Haven"::</a> 
+		  </div>
+		
+		  <div id="footer">
+			<p class="footer-text"> AGNES PUTRI ALFALAHI
+			  <span class="span-text"> 2300018407 </span> 
+			</p>
+		  </div>
+	
+	  </body>
+	  </html>
